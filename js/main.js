@@ -233,8 +233,8 @@ function main(){
       document.getElementById('schedule-panel').parentElement.innerHTML = "";
     }
     if(flexToday) {
-      document.getElementById("dayTimer").innerHTML = "D Tues/Fri";
-      document.getElementById("panel-title").innerHTML = "Flex"
+      document.getElementById("dayTimerOrFlexBlock").innerHTML = "D Tues/Fri";
+      document.getElementById("dayOrFlex").innerHTML = "Flex"
     } else {  
       clock(false);
     }
