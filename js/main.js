@@ -110,7 +110,7 @@ function clock(isHalfDay){
       seconds = Math.floor((distance % (1000 * 60)) / 1000);
     }
 
-    document.getElementById("dayTimer").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("dayTimerOrFlexBlock").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
     if (document.getElementById('schedule-progress-bar') !== null) {
       document.getElementById('schedule-progress-bar').setAttribute('style', 'width: ' + percentThroughDay + '%;');
       document.getElementById('schedule-progress-bar').innerHTML = Math.floor(percentThroughDay) + '%';
